@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3db19b4-0ce7-4140-baa3-adad5b361dc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lists/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +175,7 @@
       <updated>1577782554843</updated>
       <workItem from="1577782557015" duration="4702000" />
       <workItem from="1577850791054" duration="3598000" />
-      <workItem from="1577965530205" duration="3915000" />
+      <workItem from="1577965530205" duration="6459000" />
     </task>
     <servers />
   </component>
@@ -181,9 +183,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1229" y="370" key="SettingsEditor" timestamp="1577970290383">
+    <state x="2180" y="397" key="#Plugins" timestamp="1577970902364">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state x="1229" y="370" key="SettingsEditor/3440.-527.1440.2537/0.23.3440.1417@0.23.3440.1417" timestamp="1577970290383" />
+    <state x="2180" y="397" key="#Plugins/3440.-527.1440.2537/0.23.3440.1417@0.23.3440.1417" timestamp="1577970902364" />
+    <state x="1229" y="370" width="1721" height="856" key="SettingsEditor" timestamp="1577971990526">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="1229" y="370" width="1721" height="856" key="SettingsEditor/3440.-527.1440.2537/0.23.3440.1417@0.23.3440.1417" timestamp="1577971990526" />
+    <state x="2245" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1577970838088">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="2245" y="348" width="670" height="676" key="search.everywhere.popup/3440.-527.1440.2537/0.23.3440.1417@0.23.3440.1417" timestamp="1577970838088" />
   </component>
 </project>
