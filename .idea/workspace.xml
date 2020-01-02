@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3db19b4-0ce7-4140-baa3-adad5b361dc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lists/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +38,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RunManager">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -176,7 +173,7 @@
       <updated>1577782554843</updated>
       <workItem from="1577782557015" duration="4702000" />
       <workItem from="1577850791054" duration="3598000" />
-      <workItem from="1577965530205" duration="3664000" />
+      <workItem from="1577965530205" duration="3915000" />
     </task>
     <servers />
   </component>
@@ -184,9 +181,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1229" y="370" key="SettingsEditor" timestamp="1577794004765">
+    <state x="1229" y="370" key="SettingsEditor" timestamp="1577970290383">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state x="1229" y="370" key="SettingsEditor/3440.-527.1440.2537/0.23.3440.1417@0.23.3440.1417" timestamp="1577794004765" />
+    <state x="1229" y="370" key="SettingsEditor/3440.-527.1440.2537/0.23.3440.1417@0.23.3440.1417" timestamp="1577970290383" />
   </component>
 </project>
