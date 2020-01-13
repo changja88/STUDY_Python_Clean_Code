@@ -1,13 +1,10 @@
-import time
-import unittest
-
-from django.test import LiveServerTestCase
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-class NewVistorTest(LiveServerTestCase):
+class NewVistorTest(StaticLiveServerTestCase):
     def setUp(self):  # 테스트 시작 때 실행 된다
         self.browser = webdriver.Chrome(ChromeDriverManager().install())
         self.browser.implicitly_wait(3)  # 페이지 로딩이 끝나고 테스트가 실행되는 것을 확실히 하기 위해서
@@ -42,7 +39,6 @@ class NewVistorTest(LiveServerTestCase):
         self.check_for_row_in_list_table('2: 공작깃털을 이용해서 그물 만들기')
         self.check_for_row_in_list_table('1: 공작깃털 사기')
 
-
         # 새로운 사용자 francis
         # edith의 리스트는 보이지 않는다
         self.browser.get(self.live_server_url)
@@ -63,3 +59,14 @@ class NewVistorTest(LiveServerTestCase):
         self.assertIn('우유사기', page_text)
 
         self.fail('Finish te Test!')
+
+    def test_layout_and_styling(self):
+        self.browser.get(self.live_server_url)
+        self.browser.set_window_size(1080, 720)
+
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        self.assertAlmostEqual(
+            inputbox.location['x'] + inputbox.size['width'] / 2,
+            512,
+            delta=300
+        )
