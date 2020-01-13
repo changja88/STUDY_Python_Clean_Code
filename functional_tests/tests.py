@@ -1,3 +1,5 @@
+import sys
+
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -5,6 +7,22 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 class NewVistorTest(StaticLiveServerTestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        for arg in sys.argv:
+            if 'liveserver' in arg:
+                cls.server_url = 'http://' + arg.split('=')[1]
+                return
+        super().setUpClass()
+        cls.server_url = cls.live_server_url
+
+    @classmethod
+    def tearDownClass(cls):
+        if cls.server_url == cls.live_server_url:
+            super().tearDownClass()
+
+
     def setUp(self):  # 테스트 시작 때 실행 된다
         self.browser = webdriver.Chrome(ChromeDriverManager().install())
         self.browser.implicitly_wait(3)  # 페이지 로딩이 끝나고 테스트가 실행되는 것을 확실히 하기 위해서
@@ -18,7 +36,7 @@ class NewVistorTest(StaticLiveServerTestCase):
         self.assertIn(row_text, [row.text for row in rows])
 
     def test_can_start_a_list_and_retrieve_it_later(self):
-        self.browser.get(self.live_server_url)
+        self.browser.get(self.server_url)
         self.assertIn('To-Do', self.browser.title)
 
         header_text = self.browser.find_element_by_tag_name('h1').text
@@ -41,7 +59,7 @@ class NewVistorTest(StaticLiveServerTestCase):
 
         # 새로운 사용자 francis
         # edith의 리스트는 보이지 않는다
-        self.browser.get(self.live_server_url)
+        self.browser.get(self.server_url)
         page_text = self.browser.find_element_by_tag_name('body').text
         self.assertNotIn('우유사기', page_text)
         self.assertNotIn('그물 만들기', page_text)
@@ -61,7 +79,7 @@ class NewVistorTest(StaticLiveServerTestCase):
         self.fail('Finish te Test!')
 
     def test_layout_and_styling(self):
-        self.browser.get(self.live_server_url)
+        self.browser.get(self.server_url)
         self.browser.set_window_size(1080, 720)
 
         inputbox = self.browser.find_element_by_id('id_new_item')
