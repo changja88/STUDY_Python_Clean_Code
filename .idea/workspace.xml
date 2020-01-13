@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3db19b4-0ce7-4140-baa3-adad5b361dc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/functional_tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lists/templates/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Clean_Code/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Clean_Code/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_tests/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lists/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -189,6 +184,8 @@
       <workItem from="1578137918441" duration="5864000" />
       <workItem from="1578219323171" duration="5177000" />
       <workItem from="1578308630033" duration="5175000" />
+      <workItem from="1578376975125" duration="7584000" />
+      <workItem from="1578894474423" duration="499000" />
     </task>
     <servers />
   </component>
@@ -212,6 +209,10 @@
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="1229" y="370" width="1721" height="856" key="SettingsEditor/3440.-527.1440.2537/0.23.3440.1417@0.23.3440.1417" timestamp="1578143393687" />
+    <state x="1400" y="488" width="639" height="486" key="find.popup" timestamp="1578894805265">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="1400" y="488" width="639" height="486" key="find.popup/3440.23.1200.1897/0.23.3440.1417@0.23.3440.1417" timestamp="1578894805265" />
     <state x="2245" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1577970838088">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
