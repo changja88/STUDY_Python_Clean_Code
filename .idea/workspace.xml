@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3db19b4-0ce7-4140-baa3-adad5b361dc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/functional_tests/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_tests/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HYUN_KEY.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Clean_Code/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Clean_Code/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +190,7 @@
       <workItem from="1578219323171" duration="5177000" />
       <workItem from="1578308630033" duration="5175000" />
       <workItem from="1578376975125" duration="7584000" />
-      <workItem from="1578894474423" duration="10161000" />
+      <workItem from="1578894474423" duration="12783000" />
     </task>
     <servers />
   </component>
@@ -200,14 +202,19 @@
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="2180" y="397" key="#Plugins/3440.-527.1440.2537/0.23.3440.1417@0.23.3440.1417" timestamp="1577970902364" />
+    <state x="1466" y="541" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578909659540">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="1466" y="541" key="#com.intellij.fileTypes.FileTypeChooser/3440.23.1200.1897/0.23.3440.1417@0.23.3440.1417" timestamp="1578909659540" />
     <state x="100" y="123" width="3240" height="1217" key="DiffContextDialog" timestamp="1578316350319">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="100" y="123" width="3240" height="1217" key="DiffContextDialog/3440.-527.1440.2537/0.23.3440.1417@0.23.3440.1417" timestamp="1578316350319" />
-    <state x="1487" y="449" key="RollbackChangesDialog" timestamp="1578143926001">
+    <state x="1487" y="449" key="RollbackChangesDialog" timestamp="1578909539658">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="1487" y="449" key="RollbackChangesDialog/3440.-527.1440.2537/0.23.3440.1417@0.23.3440.1417" timestamp="1578143926001" />
+    <state x="1487" y="449" key="RollbackChangesDialog/3440.23.1200.1897/0.23.3440.1417@0.23.3440.1417" timestamp="1578909539658" />
     <state x="1229" y="370" width="1721" height="856" key="SettingsEditor" timestamp="1578899107407">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
